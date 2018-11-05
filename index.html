@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Kahit Saan | Home</title>
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="css/uikit.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+
+<body>
+	<section id="header" class="nav-wrapper">
+		<div class="uk-position-relative">
+			<!-- Navbar -->
+			<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+				<!-- Kahit Saan Logo: Redirects back to home on click -->
+				<a id="header-logo" href="index.html"><h3>Kahit Saan</h3></a>
+				
+				<!-- Right Position -->
+				<div class="uk-navbar-right">
+					<!-- Burger Button -->
+					<a id="burger-button" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-push"></a>
+
+					<!-- Nav Items -->
+					<ul id="main-nav" class="uk-navbar-nav">
+	                    <li class="uk-active"><a href="index.html">Home</a></li>
+	                    <li><a href="food.html">Food</a></li>
+	                    <li><a href="account.html">Account</a></li>
+	                </ul>
+				</div>
+			</nav>
+
+			<!-- Specific Search -->
+			<form class="wrapper">
+				<h1 id="homepage-logo">Kahit Saan</h1>
+				<p id="specific-desc">Looking for a specific place to eat?</p>
+				<div class="uk-margin">
+		            <div class="uk-inline">
+		            	<!-- Specific Search (Magnifying glass icon) -->
+			            <a id="specific-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+			            <!-- Specific Search (Input bar) -->
+			            <input id="specific-searchbar" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
+			        </div>
+		        </div>
+			</form>
+
+			<!-- Off Canvas Nav -->
+			<div class="uk-offcanvas-content" id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+			    <div class="uk-offcanvas-bar">
+			    	<!-- Close Button -->
+		        	<button class="uk-offcanvas-close" type="button" uk-close></button>
+
+		        	<!-- Nav Items (Column style) -->
+			        <ul class="uk-navbar-nav">
+		                <li class="uk-active"><a href="index.html">Home</a></li>
+		            </ul>
+		            <ul class="uk-navbar-nav">
+		            	<li><a href="food.html">Food</a></li>
+	            	</ul>
+	            	<ul class="uk-navbar-nav">
+		                <li><a href="account.html">Account</a></li>
+		            </ul>
+			    </div>
+			</div>
+		</div>
+	</section>
+
+	<form id="cant-decide">
+		<div class="wrapper">
+			<h3>Can't decide? Let us help</h3>
+
+		</div>
+	</form>
+	
+	<!-- UIkit JS -->
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+	
+</html>
