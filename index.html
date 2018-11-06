@@ -8,6 +8,9 @@
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="css/uikit.min.css"/>
 	<link rel="stylesheet" href="css/styles.css"/>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 </head>
 
 <body>
@@ -56,14 +59,16 @@
 			<div class="wrapper">
 				<h1 id="homepage-logo">Kahit Saan</h1>
 				<p id="specific-desc">Looking for a specific place to eat?</p>
-				<div class="uk-margin">
-		            <div class="uk-inline">
-		            	<!-- Specific Search (Magnifying glass icon) -->
-			            <a id="specific-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
-			            <!-- Specific Search (Input bar) -->
-			            <input id="specific-searchbar" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
+				<form>
+					<div class="uk-margin">
+			            <div class="autocomplete">
+				            <!-- Specific Search (Input bar) -->
+				            <input id="specific-searchbar" name="specific-restaurant" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
+				            <div class="dialog uk-form-width-large">
+				            </div>
+				        </div>
 			        </div>
-		        </div>
+			    </form>
 			</div>
 		</div>
 	</section>
@@ -106,12 +111,24 @@
 				<li>Stephanie Robles</li>
 				<li id="ajjss-credit">&copy; 2018 KahitSaan.com</li>
 			</ul>
-			<uL class="footer-wrapper">
-				<li><h5>Contact Us</h5></li>
-				<li>+639179990000</li>
+			<ul class="footer-wrapper">
+				<li><h5>Credits</h5></li>
+				<li>User Interface designs from UIkit</li>
+				<li><a href="https://getuikit.com/">https://getuikit.com</a></li>
+				<li>Stockimages from Pexels</li>
+				<li><a href="https://pexels.com/">https://pexels.com</a></li>
+				
+				<li class="footer-padding"><h5>Contact Us</h5></li>
+				<li>0917 999 9999</li>
 				<li>ajjsscorp@gmail.com</li>
 				<li>Ateneo De Manila University</li>
-			</uL>
+			</ul>
+			<ul class="footer-wrapper">
+				<li><h5>Explore</h5></li>
+				<li><a class="footer-link" href="index.html">Home</a></li>
+				<li><a class="footer-link" href="food.html">Food</a></li>
+				<li><a class="footer-link" href="account.html">Account</a></li>
+			</ul>
 		</div>
 	</section>
 	

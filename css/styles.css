@@ -18,10 +18,6 @@ body {
 	padding-right: 20px;
 }
 
-#header {
-	padding-bottom: 180px;
-}
-
 #header-logo h3 {
 	color: #ffffff;
 	font-weight: bold;
@@ -84,12 +80,44 @@ body {
 }
 
 #specific-searchbar {
-	margin-top: -12px;
 	margin-left: 3px;
+	margin-top: 7px;
+	margin-bottom: 160px;
 }
 
 #specific-search-icon {
-	margin-top: -12px;
+	margin-top: 7px;
+}
+
+.autocomplete {
+	position: relative;
+}
+
+.dialog {
+	position: absolute;
+	background-color: #ffffff;
+	display: none;
+	margin-left: 3px;
+	margin-top: -160px;
+	min-height: 40px;
+	max-height: 168px;
+	overflow: scroll;
+	border-top: 1px solid #f4f4f4;
+}
+
+.dialog.open {
+	display: block;
+}
+
+.dialog div {
+	padding: 10px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.dialog div:hover {
+	background-color: #f2f2f2;
 }
 
 .small-wrapper {
@@ -161,10 +189,23 @@ body {
 	font-size: 13px;
 	margin-bottom: -20px;
 	text-align: justify;
+	padding-right: 50px;
 }
 
 .dev-type {
 	padding-top: 10px;
+}
+
+.footer-padding {
+	padding-top: 20px;
+}
+
+.footer-link {
+	color: #8E8E8E;
+}
+
+.footer-link:hover {
+	color: #C2C2C2;
 }
 
 #ajjss-credit {
