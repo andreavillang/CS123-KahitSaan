@@ -33,20 +33,6 @@
 				</div>
 			</nav>
 
-			<!-- Specific Search -->
-			<form class="wrapper">
-				<h1 id="homepage-logo">Kahit Saan</h1>
-				<p id="specific-desc">Looking for a specific place to eat?</p>
-				<div class="uk-margin">
-		            <div class="uk-inline">
-		            	<!-- Specific Search (Magnifying glass icon) -->
-			            <a id="specific-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
-			            <!-- Specific Search (Input bar) -->
-			            <input id="specific-searchbar" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
-			        </div>
-		        </div>
-			</form>
-
 			<!-- Off Canvas Nav -->
 			<div class="uk-offcanvas-content" id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
 			    <div class="uk-offcanvas-bar">
@@ -65,15 +51,69 @@
 		            </ul>
 			    </div>
 			</div>
+
+			<!-- Specific Search -->
+			<div class="wrapper">
+				<h1 id="homepage-logo">Kahit Saan</h1>
+				<p id="specific-desc">Looking for a specific place to eat?</p>
+				<div class="uk-margin">
+		            <div class="uk-inline">
+		            	<!-- Specific Search (Magnifying glass icon) -->
+			            <a id="specific-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+			            <!-- Specific Search (Input bar) -->
+			            <input id="specific-searchbar" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
+			        </div>
+		        </div>
+			</div>
 		</div>
 	</section>
 
-	<form id="cant-decide">
+	<section id="cant-decide">
 		<div class="wrapper">
-			<h3>Can't decide? Let us help</h3>
-
+			<div class="uk-margin">
+				<h3>Can't decide? Let us help</h3>
+				<h4>Give us a headcount of your group</h4>
+				<!-- Headcount Number Spinner -->
+				<div class="xsmall-wrapper">
+					<div class="uk-margin">
+				        <input id="spinner" class="uk-input uk-form-width-small" type="number" placeholder="1-100" min="1" max="100">
+				    </div>
+			    </div>
+				<h4>Choose your preferred tags</h4>
+				<div class="small-wrapper">
+					<div id="auto-complete" class="uk-inline">
+		            	<!-- Tags Search Icon (Magnifying glass icon) -->
+			            <a id="tags-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+			            <!-- Auto-complete Tag Search (Input bar) -->
+			            <input id="auto-tags-input" class="uk-input uk-form-width-large" type="text" placeholder="Fast Food">
+		    		</div>
+	    		</div>	
+			</div>
 		</div>
-	</form>
+	</section>
+
+	<section id="footer">
+		<div class="nav-wrapper">
+			<ul class="footer-wrapper">
+				<li><h5>AJJSS Corporation</h5></li>
+				<li>Kahit Saan is managed by the developers of the AJJSS corporation.</li>
+				<li class="dev-type">Back-end Developers:</li>
+				<li>Jaco Abat</li>
+				<li>JR Cruz</li>
+				<li>Sherizze De Guzman</li>
+				<li class="dev-type">Front-end Developers:</li>
+				<li>Andrea Ang</li>
+				<li>Stephanie Robles</li>
+				<li id="ajjss-credit">&copy; 2018 KahitSaan.com</li>
+			</ul>
+			<uL class="footer-wrapper">
+				<li><h5>Contact Us</h5></li>
+				<li>+639179990000</li>
+				<li>ajjsscorp@gmail.com</li>
+				<li>Ateneo De Manila University</li>
+			</uL>
+		</div>
+	</section>
 	
 	<!-- UIkit JS -->
 	<script type="text/javascript" src="js/uikit.min.js"></script>
