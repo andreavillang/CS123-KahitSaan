@@ -141,13 +141,13 @@ body {
 }
 
 #tag-search-icon {
-	margin-top: -70px;
+	margin-top: -100px;
 }
 
 #cant-decide h3 {
 	font-weight: bold;
 	font-size: 30px;
-	padding-top: 50px;
+	padding-top: 60px;
 	text-align: center;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 #auto-tags-input {
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 
 .autocomplete-tag {
@@ -174,7 +174,7 @@ body {
 	position: absolute;
 	background-color: #ffffff;
 	display: none;
-	margin-top: -70px;
+	margin-top: -100px;
 	min-height: 40px;
 	max-height: 168px;
 	overflow: scroll;
@@ -234,8 +234,8 @@ body {
 
 #food-cards {
 	background-color: #ffffff;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 40px;
 	color: #262626;
 }
 
@@ -273,7 +273,11 @@ body {
 	padding-bottom: 20px;
 	left: 0;
 	bottom: 0;
+}
 
+.uk-pagination {
+	padding-top: 20px;
+	margin-bottom: 0px;
 }
 
 
