@@ -197,60 +197,84 @@ body {
 }
 
 #footer {
-	background-color: #424242;
 	color: #8E8E8E;
-	padding-bottom: 380px;
 	margin-top: -20px;
+	font-size: 12px;
+	text-align:center;
 }
 
-.footer-wrapper {
-	max-width: 170px;
+#footer-items {
+	margin-left: -60px;
+}
+
+#footer ul {
 	float: left;
-	margin-top: 0px;
-	padding-top: 40px;
+	list-style-type: none;
+}
+
+#footer h3 {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #footer h5 {
-	color: #C2C2C2;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-#footer ul {
-	list-style-type: none;
+#footer a {
+	color: #00B2FF;
+}
+
+#footer a:hover {
+	color: #008ECC;
+}
+
+/** FOOD CARDS */
+
+#food-cards {
+	background-color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #262626;
+}
+
+.card {
+	max-width: 300px;
+}
+
+.wrapper .uk-card {
+	margin: auto;
+}
+
+.uk-card-title {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.price-card {
+	color: #393939;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.desc-card {
+	color: #393939;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.tags-card {
+	position: absolute;
 	font-size: 13px;
-	margin-bottom: -20px;
-	text-align: justify;
-	padding-right: 50px;
+	color: #9E9E9E;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	left: 0;
+	bottom: 0;
+
 }
-
-.dev-type {
-	padding-top: 10px;
-}
-
-.footer-padding {
-	padding-top: 20px;
-}
-
-.footer-padding-bot {
-	padding-bottom: 40px;
-}
-
-.footer-link {
-	color: #8E8E8E;
-}
-
-.footer-link:hover {
-	color: #C2C2C2;
-}
-
-#ajjss-credit {
-	padding-top: 30px;
-	font-size: 11px;
-}
-
-
-
 
 
 
