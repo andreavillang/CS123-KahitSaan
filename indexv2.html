@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Kahit Saan | Home</title>
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="css/uikit.min.css"/>
+	<link rel="stylesheet" href="css/stylesv2.css"/>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+</head>
+
+<body>
+	<section id="header" class="nav-wrapper">
+		<div class="uk-position-relative">
+			<!-- Navbar -->
+			<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+				<!-- Kahit Saan Logo: Redirects back to home on click -->
+				<a id="header-logo" href="indexv2.html"><h3>Kahit Saan</h3></a>
+				
+				<!-- Right Position -->
+				<div class="uk-navbar-right">
+					<!-- Burger Button -->
+					<a id="burger-button" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-push"></a>
+
+					<!-- Nav Items -->
+					<ul id="main-nav" class="uk-navbar-nav">
+	                    <li class="uk-active"><a href="indexv2.html">Home</a></li>
+	                    <li><a href="foodv2.html">Food</a></li>
+	                    <li><a href="account.html">Account</a></li>
+	                </ul>
+				</div>
+			</nav>
+
+			<!-- Off Canvas Nav -->
+			<div class="uk-offcanvas-content" id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+			    <div class="uk-offcanvas-bar">
+			    	<!-- Close Button -->
+		        	<button class="uk-offcanvas-close" type="button" uk-close></button>
+
+		        	<!-- Nav Items (Column style) -->
+			        <ul class="uk-navbar-nav">
+		                <li class="uk-active"><a href="index.html">Home</a></li>
+		            </ul>
+		            <ul class="uk-navbar-nav">
+		            	<li><a href="food.html">Food</a></li>
+	            	</ul>
+	            	<ul class="uk-navbar-nav">
+		                <li><a href="account.html">Account</a></li>
+		            </ul>
+			    </div>
+			</div>
+
+			<!-- Specific Search -->
+			<div class="wrapper">
+				<h1 id="homepage-logo">Kahit Saan</h1>
+				<p id="specific-desc">Looking for a specific place to eat?</p>
+				<form>
+					<div class="uk-margin">
+			            <div class="autocomplete uk-inline">
+			            	<!-- Specific Search (Magnifying glass icon) -->
+			            	<a id="specific-search-icon" class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+				            <!-- Specific Search (Input bar) -->
+				            <input id="specific-searchbar" name="specific-searchbar" class="uk-input uk-form-width-large" type="text" placeholder="McDonald's">
+				            <div class="dialog uk-form-width-large">
+				            </div>
+				        </div>
+			        </div>
+			    </form>
+			</div>
+		</div>
+	</section>
+
+	<!-- Can't Decide Search -->
+	<section id="cant-decide">
+		<div class="wrapper">
+			<div class="uk-margin">
+				<h3>Can't decide? Let us help</h3>
+				<h4>Give us a headcount of your group</h4>
+				<!-- Headcount Number Spinner -->
+				<div class="xsmall-wrapper">
+					<div class="uk-margin">
+				        <input id="spinner" class="uk-input uk-form-width-small" type="number" placeholder="1-100" min="1" max="100">
+				    </div>
+			    </div>
+				<h4>Choose your preferred tags</h4>
+				<div class="small-wrapper uk-form-stacked">
+					<div class="checkbox-section uk-margin">
+				        <div class="check-label uk-form-label">Cuisine</div>
+				        <div class="uk-column-1-2">        	
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> American</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Chinese</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Filipino</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Indian</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Greek</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Japanese</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Korean</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Mexican</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Middle Eastern</label></div>
+					    
+					    </div>
+				    </div>
+
+				    <div class="checkbox-section uk-margin">
+				        <div class="check-label uk-form-label">Specialty</div>
+				        <div class="uk-column-1-2">
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Buffalo Wing</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Burger</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Coffee</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Dessert</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Fried Chicken</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Kebab</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pasta</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pizza</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Roasted Chicken</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Salad</label></div>
+					    </div>
+				    </div>
+
+				    <div class="checkbox-section uk-margin">
+				        <div class="check-label uk-form-label">Diet</div>
+				        <div class="uk-column-1-2">
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Halal</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pescetarian</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Vegan</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Vegetarian</label></div>
+					    </div>
+				    </div>
+
+				    <div class="checkbox-section uk-margin">
+				        <div class="check-label uk-form-label">Service</div>
+				        <div class="uk-column-1-2">
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Bar</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Cafe</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Convenience Store</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Delivery</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Fast Food</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Food Stall</label></div>
+					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Dine In</label></div>
+					    </div>
+				    </div>
+	    		</div>
+	    		<table id="search-button-wrap">
+	    		<td><a class="search-button uk-button uk-button-default" href="#">Search</a></td>
+	    		</table>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="uk-section uk-section-secondary uk-light">
+		    <div class="uk-container">
+
+		        <h3>&copy; 2018 Kahit Saan</h3>
+
+		        <div id="footer-items" class="uk-grid-match uk-child-width-1-5@m" uk-grid>
+		            <div>
+		                <ul>
+							<li><h5>AJJSS Corporation</h5></li>
+							<li>Kahit Saan is managed by the developers of the AJJSS corporation.</li>
+						</ul>
+		            </div>
+		            <div>
+		            	<ul>
+			                <li><h5>Back-end Developers</h5></li>
+							<li>Jaco Abat</li>
+							<li>JR Cruz</li>
+							<li>Sherizze De Guzman</li>
+						</ul>
+		            </div>
+		            <div>
+		                <ul>
+			                <li><h5>Front-end Developers</h5></li>
+							<li>Andrea Ang</li>
+							<li>Stephanie Robles</li>
+						</ul>
+		            </div>
+		            <div>
+		                <ul>
+							<li><h5>Credits</h5></li>
+							<li>User Interface designs from UIkit</li>
+							<li><a href="https://getuikit.com/">https://getuikit.com</a></li>
+							<li>Stockimages from Pexels</li>
+							<li><a href="https://pexels.com/">https://pexels.com</a></li>
+						</ul>
+		            </div>
+		            <div>
+		            	<ul>
+		            		<li><h5>Contact Us</h5></li>
+							<li>0917 999 9999</li>
+							<li>ajjsscorp@gmail.com</li>
+							<li>Ateneo De Manila University</li>
+		            	</ul>
+		            </div>
+		        </div>
+
+		    </div>
+		</div>
+	</section>
+	
+	<!-- UIkit JS -->
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/auto-search.js"></script>
+	<script type="text/javascript" src="js/auto-tags.js"></script>
+</body>
+	
+</html>
