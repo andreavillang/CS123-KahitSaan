@@ -11,6 +11,16 @@ body {
 
 }
 
+@media screen and (max-width: 650px) {
+	#main-nav .nav-item {
+		display: none;
+	}
+	#main-nav #burger-button {
+		float: right;
+		display: block;
+	}
+}
+
 .nav-wrapper {
 	max-width: 1300px;
 	margin: auto;
@@ -49,8 +59,9 @@ body {
 }
 
 #burger-button {
+	padding-top: 26px;
 	color: #dddddd;
-	padding-top: 30px;
+	display: none;
 }
 
 #burger-button:hover {
@@ -163,14 +174,8 @@ body {
 	}
 }
 
-.checkbox-section table td {
-	margin: 0 auto;
-	width: 100%;
-	padding-left: 30px;
-}
-
 .checkbox-section {
-	padding-left: 45px;
+	padding-left: 40px;
 }
 
 .check-label {
