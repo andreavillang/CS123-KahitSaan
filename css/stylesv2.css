@@ -267,6 +267,10 @@ body {
 	color: #262626;
 }
 
+#food-cards a {
+	text-decoration: none;
+}
+
 .card {
 	max-width: 300px;
 }
