@@ -133,6 +133,15 @@ body {
 	background-color: #f2f2f2;
 }
 
+.medium-wrapper {
+	max-width: 800px;
+	margin: auto;
+	padding-left: 0px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
 .small-wrapper {
 	max-width: 500px;
 	margin: auto;
@@ -176,19 +185,26 @@ body {
 	}
 }
 
-.checkbox-section {
-	padding-left: 40px;
+.uk-checkbox {
+	display: none;
 }
 
-.check-label {
+.tag-checkbox:checked + .tag-label {
+	color: #BF335C;
+}
+
+.tag-card {
+	max-width: 250px;
+	padding-bottom: 0px;
+}
+
+.tag-title {
+	color: #383838;
 	font-weight: bold;
-	font-size: 19px;
 }
 
-.check-wrap {
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: #000;
+.tag-name {
+	font-size: 17px;
 }
 
 #search-button-wrap {

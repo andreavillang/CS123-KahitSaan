@@ -7,7 +7,7 @@
 
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="css/uikit.min.css"/>
-	<link rel="stylesheet" href="css/stylesv2.css"/>
+	<link rel="stylesheet" href="css/stylesv3.css"/>
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
@@ -94,62 +94,178 @@
 				    </div>
 			    </div>
 				<h4>Choose your preferred tags</h4>
-				<div class="small-wrapper uk-form-stacked">
-					<div class="checkbox-section uk-margin">
-				        <div class="check-label uk-form-label">Cuisine</div>
-				        <div class="uk-column-1-2">        	
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> American</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Chinese</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Filipino</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Indian</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Greek</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Japanese</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Korean</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Mexican</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Middle Eastern</label></div>
-					    
-					    </div>
-				    </div>
 
-				    <div class="checkbox-section uk-margin">
-				        <div class="check-label uk-form-label">Specialty</div>
-				        <div class="uk-column-1-2">
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Buffalo Wing</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Burger</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Coffee</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Dessert</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Fried Chicken</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Kebab</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pasta</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pizza</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Roasted Chicken</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Salad</label></div>
-					    </div>
-				    </div>
+				<div class="medium-wrapper uk-child-width-1-3@m uk-grid-match" uk-grid>
+					<div>
+				        <label for="burger"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="burger"><img src="assets/img/tag/burger.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="burger" value="0">
+				                	<label for="burger" class="tag-label">Burger</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
 
-				    <div class="checkbox-section uk-margin">
-				        <div class="check-label uk-form-label">Diet</div>
-				        <div class="uk-column-1-2">
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Halal</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Pescetarian</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Vegan</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Vegetarian</label></div>
-					    </div>
-				    </div>
+			    	<div>
+				        <label for="cheese"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="cheese"><img src="assets/img/tag/cheese.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="cheese" value="0">
+				                	<label for="cheese" class="tag-label">Cheese Lover</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
 
-				    <div class="checkbox-section uk-margin">
-				        <div class="check-label uk-form-label">Service</div>
-				        <div class="uk-column-1-2">
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Bar</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Cafe</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Convenience Store</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Delivery</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Fast Food</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Food Stall</label></div>
-					        <div class="check-wrap"><label><input class="uk-checkbox" type="checkbox"> Dine In</label></div>
-					    </div>
-				    </div>
-	    		</div>
+			    	<div>
+				        <label for="coffee"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="coffee"><img src="assets/img/tag/coffee.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="coffee" value="0">
+				                	<label for="coffee" class="tag-label">Coffee</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="curry"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="curry"><img src="assets/img/tag/curry.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="curry" value="0">
+				                	<label for="curry" class="tag-label">Curry</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="filipino"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="filipino"><img src="assets/img/tag/filipino.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="filipino" value="0">
+				                	<label for="filipino" class="tag-label">Filipino Classics</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="chicken"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="chicken"><img src="assets/img/tag/fried-chicken.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="chicken" value="0">
+				                	<label for="chicken" class="tag-label">Fried Chicken</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="pancake"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="pancake"><img src="assets/img/tag/pancake.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="pancake" value="0">
+				                	<label for="pancake" class="tag-label">All-Day Breakfast</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="pizza"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="pizza"><img src="assets/img/tag/pizza.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="pizza" value="0">
+				                	<label for="pizza" class="tag-label">Pizza</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="seafood"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="seafood"><img src="assets/img/tag/seafood.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="seafood" value="0">
+				                	<label for="seafood" class="tag-label">Seafood Special</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="sushi"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="sushi"><img src="assets/img/tag/sushi.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="sushi" value="0">
+				                	<label for="sushi" class="tag-label">Sushi</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="sweet"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="sweet"><img src="assets/img/tag/sweet-tooth.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="sweet" value="0">
+				                	<label for="sweet" class="tag-label">Sweet Tooth</label>
+				                </div>
+				            </div>
+				        </div></label>
+			    	</div>
+
+			    	<div>
+				        <label for="wifi"><div class="tag-card uk-card uk-card-default uk-card-hover">
+				            <div class="uk-card-media-top">
+				                <label for="wifi"><img src="assets/img/tag/wifi.png" alt=""></label>
+				            </div>
+				            <div class="uk-card-body uk-card-small">
+				                <div class="tag-title">
+				                	<input class="tag-checkbox uk-checkbox" type="checkbox" id="wifi" value="0">
+				                	<label for="wifi" class="tag-label">Wi-Fi Ready</label>
+				                </div>
+				            </div>
+				        </div>
+			    	</div></label>
+
+				</div>
+
 	    		<table id="search-button-wrap">
 	    		<td><a class="search-button uk-button uk-button-default" href="#">Search</a></td>
 	    		</table>
