@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Kahit Saan | Food</title>
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="css/uikit.min.css"/>
+	<link rel="stylesheet" href="css/styles-food-account.css"/>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+</head>
+
+<body>
+	<section id="header" class="nav-wrapper">
+		<div class="uk-position-relative">
+			<!-- Navbar -->
+			<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+				<!-- Kahit Saan Logo: Redirects back to home on click -->
+				<a id="header-logo" href="index.html"><h3>Kahit Saan</h3></a>
+				
+				<!-- Right Position -->
+				<div class="uk-navbar-right">
+
+					<!-- Nav Items -->
+					<ul id="main-nav" class="uk-navbar-nav">
+						<!-- Burger Button -->
+						<li><a id="burger-button" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-push"></a></li>
+	                    <li class="nav-item"><a href="indexv2.html">Home</a></li>
+	                    <li class="nav-item uk-active"><a href="foodv2.html">Food</a></li>
+	                    <li class="nav-item"><a href="account.html">Account</a></li>
+	                    <li class="nav-item"><a href="#">Logout</a></li>
+	                </ul>
+				</div>
+			</nav>
+
+			<!-- Off Canvas Nav -->
+			<div class="uk-offcanvas-content" id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+			    <div class="uk-offcanvas-bar">
+			    	<!-- Close Button -->
+		        	<button class="uk-offcanvas-close" type="button" uk-close></button>
+
+		        	<!-- Nav Items (Column style) -->
+			        <ul class="uk-navbar-nav">
+		                <li><a href="indexv2.html">Home</a></li>
+		            </ul>
+		            <ul class="uk-navbar-nav">
+		            	<li class="uk-active"><a href="foodv2.html">Food</a></li>
+	            	</ul>
+	            	<ul class="uk-navbar-nav">
+		                <li><a href="account.html">Account</a></li>
+		            </ul>
+		            <ul class="uk-navbar-nav">
+		                <li><a href="#">Logout</a></li>
+		            </ul>
+			    </div>
+			</div>
+
+			<div class="restaurant-section wrapper">
+				<h1 id="restaurant-name">McDonald's</h1>
+				<p class="medium-wrapper" id="restaurant-desc">McDonald’s serves the world some of its favorite food like the Big Mac, Big n' Tasty, Quarter Pounder with Cheese, Cheeseburger, French Fries, Egg McMuffin, Apple Pie and Sundae. This is what we are famous for, globally and locally.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="restaurant">
+		<div class="wrapper">
+			<h3 class="resto-text">Area: [Specific]</h3>
+			<h3 class="resto-text">Price: P150</h3>
+			<h3 class="resto-text">Menu: </h3>
+			<div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+			    <div>
+			        <a class="uk-inline" href="assets/img/mc-menu2.jpg">
+			            <img src="assets/img/mc-menu2.jpg" alt="">
+			        </a>
+			    </div>
+			    <div>
+			        <a class="uk-inline" href="assets/img/mc-menu2.jpg">
+			            <img src="assets/img/mc-menu2.jpg" alt="">
+			        </a>
+			    </div>
+			    <div>
+			        <a class="uk-inline" href="assets/img/mc-menu3.jpg">
+			            <img src="assets/img/mc-menu3.jpg" alt="">
+			        </a>
+			    </div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="uk-section uk-section-secondary uk-light">
+		    <div class="uk-container">
+
+		        <h3>&copy; 2018 Kahit Saan</h3>
+
+		        <div id="footer-items" class="uk-grid-match uk-child-width-1-5@m" uk-grid>
+		            <div>
+		                <ul>
+							<li><h5>AJJSS Corporation</h5></li>
+							<li>Kahit Saan is managed by the developers of the AJJSS corporation.</li>
+						</ul>
+		            </div>
+		            <div>
+		            	<ul>
+			                <li><h5>Back-end Developers</h5></li>
+							<li>Jaco Abat</li>
+							<li>JR Cruz</li>
+							<li>Sherizze De Guzman</li>
+						</ul>
+		            </div>
+		            <div>
+		                <ul>
+			                <li><h5>Front-end Developers</h5></li>
+							<li>Andrea Ang</li>
+							<li>Stephanie Robles</li>
+						</ul>
+		            </div>
+		            <div>
+		                <ul>
+							<li><h5>Credits</h5></li>
+							<li>User Interface designs from UIkit</li>
+							<li><a href="https://getuikit.com/">https://getuikit.com</a></li>
+							<li>Stockimages from Pexels</li>
+							<li><a href="https://pexels.com/">https://pexels.com</a></li>
+						</ul>
+		            </div>
+		            <div>
+		            	<ul>
+		            		<li><h5>Contact Us</h5></li>
+							<li>0917 999 9999</li>
+							<li>ajjsscorp@gmail.com</li>
+							<li>Ateneo De Manila University</li>
+		            	</ul>
+		            </div>
+		        </div>
+
+		    </div>
+		</div>
+	</section>
+
+	<!-- UIkit JS -->
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+</body>
