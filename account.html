@@ -7,7 +7,8 @@
 
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="css/uikit.min.css"/>
-	<link rel="stylesheet" href="account.css"/>
+	<link rel="stylesheet" href="css/account.css"/>
+	<link rel="stylesheet" href="css/stylesv2.css"/>
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
@@ -20,7 +21,7 @@
 			<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
 				<!-- Kahit Saan Logo: Redirects back to home on click -->
-				<a id="header-logo" href="index.html"><h3>Kahit Saan</h3></a>
+				<a id="header-logo" href="indexv2.html"><h3>Kahit Saan</h3></a>
 				
 				<!-- Right Position -->
 				<div class="uk-navbar-right">
@@ -32,6 +33,7 @@
 	                    <li class="nav-item"><a href="indexv2.html">Home</a></li>
 	                    <li class="nav-item"><a href="foodv2.html">Food</a></li>
 	                    <li class="nav-item uk-active"><a href="account.html">Account</a></li>
+	                    <li class="nav-item"><a href="#">Logout</a></li>
 	                </ul>
 				</div>
 			</nav>
@@ -44,13 +46,16 @@
 
 		        	<!-- Nav Items (Column style) -->
 			        <ul class="uk-navbar-nav">
-		                <li><a href="index.html">Home</a></li>
+		                <li><a href="indexv2.html">Home</a></li>
 		            </ul>
 		            <ul class="uk-navbar-nav">
-		            	<li><a href="food.html">Food</a></li>
+		            	<li><a href="foodv2.html">Food</a></li>
 	            	</ul>
 	            	<ul class="uk-navbar-nav">
 		                <li class="uk-active"><a href="account.html">Account</a></li>
+		            </ul>
+		            <ul class="uk-navbar-nav">
+		                <li><a href="#">Logout</a></li>
 		            </ul>
 			    </div>
 			</div>
@@ -66,10 +71,10 @@
 	<!-- Food Cards -->
 	<section id="food-cards">
 		<div class="wrapper">
-            <p class="want-try">Want to try</p>
+            <h3 class="want-try">Want to try</h3>
 			<div class="uk-child-width-1-3@m uk-grid-match" uk-grid>
 			    <div>
-			        <div class="card uk-card uk-card-default">
+			        <a href="food-account.html"><div class="card uk-card-hover uk-card uk-card-default">
 			            <div class="uk-card-media-top">
 			                <img src="assets/img/bonchon.jpg" alt="">
 			            </div>
@@ -81,11 +86,11 @@
 			                
 			                <p class="tags-card">Fast Food, Fried Chicken, Korean</p>
 			            </div>
-			        </div>
+			        </div></a>
 			    </div>
 
 			    <div>
-			        <div class="card uk-card uk-card-default">
+			        <a href="food-account.html"><div class="card uk-card-hover uk-card uk-card-default">
 			            <div class="uk-card-media-top">
 			                <img src="assets/img/kfc.jpg" alt="">
 			            </div>
@@ -97,11 +102,11 @@
 			                
 			                <p class="tags-card">American, Fast Food, Fried Chicken</p>
 			            </div>
-			        </div>
+			        </div></a>
 			    </div>
 
 			    <div>
-			        <div class="card uk-card uk-card-default">
+			        <a href="food-account.html"><div class="card uk-card-hover uk-card uk-card-default">
 			            <div class="uk-card-media-top">
 			                <img src="assets/img/mcdonalds.jpg" alt="">
 			            </div>
@@ -112,7 +117,7 @@
 			                <p class="desc-card">Area: UPTC</p>
 			                <p class="tags-card">American, Fast Food, Fried Chicken</p>
 			            </div>
-			        </div>
+			        </div></a>
 			    </div>
 			</div>
 		</div>
