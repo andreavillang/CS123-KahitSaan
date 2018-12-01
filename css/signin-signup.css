@@ -1,0 +1,65 @@
+html {
+    font-family: "Helvetica";
+    background-image: url("../assets/img/login-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper {
+    padding-top: 150px;
+    width: 350px;
+    margin: auto;
+}
+
+.wrapper-signup {
+    padding-top: 70px;
+    width: 350px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.label {
+    color: #fff;
+}
+
+.uk-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button {
+    text-align: center;
+}
+
+.uk-button {
+    margin-top: -55px;
+}
+
+#link {
+    margin-top: -10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+    
