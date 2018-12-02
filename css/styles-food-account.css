@@ -85,10 +85,12 @@ body {
 }
 
 .medium-wrapper {
-	max-width: 800px;
+	max-width: 700px;
 	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .small-wrapper {
@@ -132,6 +134,30 @@ body {
 .resto-text {
 	font-weight: bold;
 }
+/** */
+
+/** Manage exclusive */
+#edit-details {
+	padding-top: 20px;
+	margin-bottom: -60px;
+	background-color: #fff;
+}
+
+.edit-title {
+	font-weight: bold;
+	color: #000;
+}
+
+.edit-label { 
+	margin-top: 30px;
+	font-weight: bold;
+	color: #000;
+}
+
+#save {
+	margin-top: 10px;
+}
+
 /** */
 
 #footer {
