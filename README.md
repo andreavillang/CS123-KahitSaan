@@ -5,3 +5,8 @@ Initial designs of the website can be found here:
 https://drive.google.com/drive/folders/1tSsXEpqzcEeV3oV2sX2nzgbZhqWQRzOg?usp=sharing
 
 NOTE: this website is a prototype made for the Ateneo class CS 123
+
+UPDATE:
+Redesigned version (not developed, these are only design screens)
+https://www.instagram.com/p/CGw8po9gFZt/
+https://www.instagram.com/p/CGw9YX2APgH/
